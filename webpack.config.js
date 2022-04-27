@@ -5,6 +5,7 @@ module.exports = {
   mode: "development",
   entry: {
     index: "./src/index.js",
+    pageLoad: "./src/pages/page-load.js",
   },
   devtool: "inline-source-map",
   devServer: {
@@ -12,7 +13,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Output Management",
+      title: "What To Do",
     }),
   ],
   output: {
