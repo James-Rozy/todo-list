@@ -6,6 +6,8 @@ module.exports = {
   entry: {
     index: "./src/index.js",
     pageLoad: "./src/pages/page-load.js",
+    sideBar: "./src/pages/side-bar.js",
+    projectContent: "./src/pages/project-content.js",
   },
   devtool: "inline-source-map",
   devServer: {
